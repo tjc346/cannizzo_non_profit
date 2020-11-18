@@ -1,7 +1,3 @@
-.card {
-    width: 400px;
-    height: 300px;
-}
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
@@ -22,7 +18,7 @@ body {
    font-weight: 400;
 }
 
-/** Header and Nav**/
+/** End of Header, Nav, Media Queries **/
 header {
    background: var(--background);
    padding: 10px;
@@ -121,7 +117,7 @@ nav a:hover {
 
 
 .hero {
-   background-image: ('C:/Users/tjcan/Desktop/VS Demo/images/header.png');
+   background-image: url("https://i.pinimg.com/originals/b5/12/2d/b5122d67268e6af828c9b204319e9986.png");
    width: 100%;
    height: 100vh;
    background-size: cover;
@@ -190,13 +186,10 @@ section{
    padding: 100px;
 }
 
+/** Media Queries **/
 img {
-   max-height: 400px;
-   max-width: 400px;
-}
-
-.container{
-   color: #fff;
+   max-height: auto;
+   max-width: auto;
 }
 
 .wrapper {
@@ -224,13 +217,9 @@ img {
       
    }   
 }
-/** End of Header and Nav **/ 
+/** End of Header, Nav, Media Queries **/ 
 
-/** Media Queries **/
-
-/** End of Media Queries **/
-
-/** Projects **/
+/** Project/Overlay **/
 .container {
    position: relative;
    width: 50%;
@@ -270,7 +259,7 @@ img {
    transform: translate(-50%, -50%);
    text-align: center;
  }
-/** End of Projects **/
+/** End of Projects/overlay **/
 
 /** Footer **/
 footer {
