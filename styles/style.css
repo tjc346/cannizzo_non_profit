@@ -11,10 +11,21 @@
    box-sizing: border-box;
 }
 
+h1 {
+}
+
+h2 {
+   font-family: "pragmatica", sans-serif;
+}
+
+h3 {
+   font-family: "pragmatica", sans-serif;
+}
+
 body {
    margin: 0;
    background: #222;
-   font-family: "Roboto", sans-serif;
+   font-family: "pragmatica", sans-serif;
    font-weight: 400;
 }
 
@@ -209,7 +220,15 @@ img {
 @media screen and (max-width: 800px){
    .wrapper {
       grid-template-columns: 1fr;
-   }      
+   }
+   
+   .news-wrapper {
+      grid-template-columns: 1fr;
+   }
+
+   .officers-wrapper {
+      grid-template-columns: 1fr;
+   }
 }
 
 @media screen and (max-width: 400px){
@@ -217,24 +236,49 @@ img {
       display: block;
       
    }   
+
+   .news-wrapper {
+      display: block;
+   }
+
+   .officers-wrapper {
+      display: block;
+   }
 }
+
 /** End of Header, Nav, Media Queries **/ 
+ 
+/** Grid **/
+
+
+/** End of Grid **/
 
 /**About**/
 
-.about{
-background-color: #1C4F9C;
-color: white;
+.about {
+   background-color: #1C4F9C;
+   color: white;
+   text-align: center;  
 }
 /**End of About**/
 
 /**News**/
 
-.news{
-  
+.news {
+   
    }
 
-   /**End ofNews**/
+.news-wrapper{
+   width: 40%;
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 10px;
+   column-gap: 50px;
+   row-gap: 10px;
+}
+
+   /**End of News**/
 
 /** Project/Overlay **/
 
@@ -281,16 +325,63 @@ color: white;
    transform: translate(-50%, -50%);
    text-align: center;
  }
+
+ .button {
+   background-color: #FCCB06;
+   border: none;
+   color: black;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+ }
+
+ button a:link {
+   color: #fff;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+button a:hover {
+   color: white;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+button a:visited {
+   color: white;
+   text-decoration: none;
+   cursor: pointer;
+}
+
 /** End of Projects/overlay **/
 
-/**About**/
+/**Officers**/
 
-.officers{
+.officers {
    }
 
-/**End of About**/
+.officers-wrapper{
+   width: 40%;
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 10px;
+   column-gap: 50px;
+   row-gap: 10px;
+}
+
+/**End of Officers**/
 
 /** Footer **/
+
+.icon {
+   color: white;
+}
+
 footer {
    width: 100%;
    padding: 40px 0;
