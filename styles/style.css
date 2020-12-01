@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 :root {
-   --background: rgba(0, 214, 170, 0.85);
+   --background: #0E336A;
 }
 
 *,
@@ -29,7 +29,7 @@ header {
 }
 
 .logo {
-   margin: 0;
+  width: 100px;
 }
 
 .nav-toggle {
@@ -220,7 +220,29 @@ img {
 }
 /** End of Header, Nav, Media Queries **/ 
 
+/**About**/
+
+.about{
+background-color: #1C4F9C;
+color: white;
+}
+/**End of About**/
+
+/**News**/
+
+.news{
+  
+   }
+
+   /**End ofNews**/
+
 /** Project/Overlay **/
+
+.projects {
+   background-color: #1C4F9C;
+   color: white;
+}
+
 .container {
    position: relative;
  }
@@ -261,14 +283,22 @@ img {
  }
 /** End of Projects/overlay **/
 
+/**About**/
+
+.officers{
+   }
+
+/**End of About**/
+
 /** Footer **/
 footer {
    width: 100%;
    padding: 40px 0;
    text-align: center;
+   color: white;
    background-color: #e89427;
    object-position: center;
-   background: rgba(0, 214, 170, 0.85);
+   background: #0E336A;
    width: 100%;
 }
 
@@ -279,13 +309,13 @@ footer a:link {
 }
 
 footer a:hover {
-   color: black;
+   color: white;
    text-decoration: none;
    cursor: pointer;
 }
 
 footer a:visited {
-   color: black;
+   color: white;
    text-decoration: none;
    cursor: pointer;
 }
