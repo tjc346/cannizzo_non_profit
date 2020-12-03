@@ -12,6 +12,8 @@
 }
 
 h1 {
+   text-align: center;
+   font-size: 40px;
 }
 
 h2 {
@@ -39,9 +41,6 @@ header {
    z-index: 1000;
 }
 
-.logo {
-  width: 100px;
-}
 
 .nav-toggle {
    display: none;
@@ -89,7 +88,7 @@ nav a {
 } 
 
 nav a:hover {
-   color: #000;
+   color: #e89427;
 }
 
 .nav-toggle-label {
@@ -148,6 +147,7 @@ nav a:hover {
 
    .logo {
       grid-column: 2/3;
+      width: 60px;
    }
    
    nav {
@@ -176,7 +176,7 @@ nav a:hover {
       content: "";
       display: block;
       height: 5px;
-      background: black;
+      background: #e89427;
       position: absolute;
       bottom: -.5em;
       left: 0;
@@ -256,6 +256,7 @@ img {
 /**About**/
 
 .about {
+   align-content: center;
    background-color: #1C4F9C;
    color: white;
    text-align: center;  
@@ -362,6 +363,7 @@ button a:visited {
 /**Officers**/
 
 .officers {
+   text-align: center;
    }
 
 .officers-wrapper{
@@ -400,7 +402,7 @@ footer a:link {
 }
 
 footer a:hover {
-   color: white;
+   color: #e89427;
    text-decoration: none;
    cursor: pointer;
 }
