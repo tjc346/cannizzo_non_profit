@@ -12,15 +12,22 @@
 }
 
 h1 {
+   font-family: "pragmatica", sans-serif;
    text-align: center;
-   font-size: 40px;
+   font-size: 50px;
 }
 
 h2 {
+   text-align: center;
    font-family: "pragmatica", sans-serif;
+   font-size: 35px;
 }
 
 h3 {
+   font-family: "pragmatica", sans-serif;
+}
+
+h4 {
    font-family: "pragmatica", sans-serif;
 }
 
@@ -29,6 +36,27 @@ body {
    background: #222;
    font-family: "pragmatica", sans-serif;
    font-weight: 400;
+}
+
+section{
+   background-color: #fff;
+   padding: 100px;
+}
+
+.about,
+.news,
+.projects,
+.officers,
+.volunteer {
+   width: 100%;
+   padding: 100px 200px;
+   
+}
+
+.about,
+.projects,
+.volunteer {
+   background: #1C4F9C;
 }
 
 /** End of Header, Nav, Media Queries **/
@@ -133,6 +161,22 @@ nav a:hover {
    background-size: cover;
 }
 
+ .text-block {
+   background-color: rgb(0,0,0); /* Fallback color */
+   background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+   color: white;
+   font-weight: bold;
+   border: 3px solid #e89427;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 2;
+   width: 80%;
+   padding: 20px;
+   text-align: center;
+ }
+
 
 @media screen and (min-width: 600px) {
    
@@ -190,11 +234,6 @@ nav a:hover {
       transform: scale(1,1);
    }
    
-}
-
-section{
-   background-color: #fff;
-   padding: 100px;
 }
 
 /** Media Queries **/
@@ -257,7 +296,6 @@ img {
 
 .about {
    align-content: center;
-   background-color: #1C4F9C;
    color: white;
    text-align: center;  
 }
@@ -284,7 +322,6 @@ img {
 /** Project/Overlay **/
 
 .projects {
-   background-color: #1C4F9C;
    color: white;
 }
 
@@ -317,7 +354,7 @@ img {
  
  .overlay-text {
    color: black;
-   font-size: 20px;
+   font-size: 15px;
    position: absolute;
    top: 50%;
    left: 50%;
@@ -364,6 +401,7 @@ button a:visited {
 
 .officers {
    text-align: center;
+   position: center;
    }
 
 .officers-wrapper{
@@ -378,7 +416,90 @@ button a:visited {
 
 /**End of Officers**/
 
+/** Form/volunteer **/
+
+.volunteer {
+   color: ;
+}
+
+form {
+   width: 300px;
+   background: white;
+   padding: 35px;
+   margin-top: 20vh;
+   /*VH - V=height H=width*/
+}
+
+input {
+   width: 100%;
+}
+
+textarea {
+   resize: vertical;
+   max-height: 100px;
+}
+
+input, textarea {
+   outline: none;
+   border: none;
+   border-bottom: 1px dashed #ddd;
+   border-right: 1px dashed #ddd;
+   margin: 10px;
+   font-size: .7em;
+}
+
+input:focus, textarea:focus {
+   box-shadow: 0 0 4px white;
+   /**border: 1px solid red;**/
+}
+
+.option {
+   padding-bottom: 15px;
+}
+
+::placeholder {
+   color: #FCCB06;
+   opacity: .55;
+}
+
+.submit-button {
+   display: block;
+   padding: 5px 15px;
+   margin: 20px auto;
+   outline: none;
+   border-radius: 25px;
+   border: none;
+   background-color: #FCCB06;
+}
+
+.submit-button: hover {
+   background: cyan;
+   
+}
+
+/** End of Form **/
+
 /** Footer **/
+
+.volunteers {
+   width: 100%;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea,
+.contact-form select {
+   width: 440px;
+   height: 35px;
+   margin-bottom: 25px;
+   padding: 5px 5px 5px 10px;
+   border: none;
+   color: #fff;
+   font: grey;
+   font-weight: 100;
+   font-family: "Roboto Slab", serif;
+   background-color: lightgray;
+}
 
 .icon {
    color: white;
