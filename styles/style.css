@@ -59,6 +59,10 @@ section{
    background: #1C4F9C;
 }
 
+.container {
+   align-content: center;
+}
+
 /** End of Header, Nav, Media Queries **/
 header {
    background: var(--background);
@@ -257,7 +261,7 @@ img {
 }
 
 .box2 {
-   width: 400px;
+   width: 100%;
 }
 
 @media screen and (max-width: 800px){
@@ -314,6 +318,7 @@ img {
 .news-wrapper{
    
    margin: 0 auto;
+   padding: 100px 300px;
    display: grid;
    grid-template-columns: 1fr 1fr;
    gap: 10px;
@@ -358,7 +363,7 @@ img {
  
  .overlay-text {
    color: black;
-   font-size: 15px;
+   font-size: 12px;
    position: absolute;
    top: 50%;
    left: 50%;
@@ -409,11 +414,11 @@ button a:visited {
    }
 
 .officers-wrapper{
-   width: 40%;
+   width: 100%;
    margin: 0 auto;
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
-   gap: 10px;
+   gap: 0px;
    column-gap: 50px;
    row-gap: 10px;
 }
@@ -423,7 +428,7 @@ button a:visited {
 /** Form/volunteer **/
 
 .volunteer {
-   color: ;
+   width: 100%;
 }
 
 form {
