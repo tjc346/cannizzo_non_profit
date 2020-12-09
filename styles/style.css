@@ -429,9 +429,15 @@ button a:visited {
 
 .volunteer {
    width: 100%;
+   color: white;
+}
+
+.volunteerh1 {
+   
 }
 
 form {
+   color: black;
    width: 300px;
    background: white;
    padding: 35px;
@@ -467,7 +473,7 @@ input:focus, textarea:focus {
 }
 
 ::placeholder {
-   color: #FCCB06;
+   color: grey;
    opacity: .55;
 }
 
@@ -486,13 +492,14 @@ input:focus, textarea:focus {
    
 }
 
-/** End of Form **/
-
-/** Footer **/
-
 .volunteers {
    width: 100%;
 }
+
+/** End of Form/volunteer **/
+
+/** Footer **/
+
 
 .contact-form input[type="text"],
 .contact-form input[type="email"],
