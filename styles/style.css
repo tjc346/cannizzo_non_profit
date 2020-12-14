@@ -437,8 +437,9 @@ button a:visited {
 }
 
 form {
+   margin: 0 auto;
    color: black;
-   width: 300px;
+   width: 600px;
    background: white;
    padding: 35px;
    margin-top: 20vh;
@@ -489,7 +490,6 @@ input:focus, textarea:focus {
 
 .submit-button: hover {
    background: cyan;
-   
 }
 
 .volunteers {
@@ -520,8 +520,9 @@ input:focus, textarea:focus {
    background-color: lightgray;
 }
 
-.icon {
-   color: white;
+svg {
+   fill: white;
+   cursor: pointer;
 }
 
 footer {
