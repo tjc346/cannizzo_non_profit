@@ -294,11 +294,6 @@ img {
 }
 
 /** End of Header, Nav, Media Queries **/ 
- 
-/** Grid **/
-
-
-/** End of Grid **/
 
 /**About**/
 
@@ -310,10 +305,6 @@ img {
 /**End of About**/
 
 /**News**/
-
-.news {
-   
-   }
 
 .news-wrapper{
    
@@ -439,11 +430,10 @@ button a:visited {
 form {
    margin: 0 auto;
    color: black;
-   width: 600px;
+   width: 700px;
    background: white;
    padding: 35px;
-   margin-top: 20vh;
-   /*VH - V=height H=width*/
+   
 }
 
 input {
@@ -479,6 +469,7 @@ input:focus, textarea:focus {
 }
 
 .submit-button {
+   cursor: pointer;
    display: block;
    padding: 5px 15px;
    margin: 20px auto;
@@ -502,22 +493,6 @@ input:focus, textarea:focus {
 
 .facebook {
    color: white;
-}
-
-.contact-form input[type="text"],
-.contact-form input[type="email"],
-.contact-form textarea,
-.contact-form select {
-   width: 440px;
-   height: 35px;
-   margin-bottom: 25px;
-   padding: 5px 5px 5px 10px;
-   border: none;
-   color: #fff;
-   font: grey;
-   font-weight: 100;
-   font-family: "Roboto Slab", serif;
-   background-color: lightgray;
 }
 
 svg {
